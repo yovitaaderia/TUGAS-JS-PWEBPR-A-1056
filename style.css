@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #dbdbdb;
+  max-width: 100%;
+  margin: 100px auto;
+  border-radius: 30px;
+  background-color: #dbdbdb;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 329px;
+  width: 610px;
+  border-radius: 30px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #dbdbdb;
+  max-width: 100%;
+  margin: 100px auto;
+  border-radius: 30px;
+  background-color: #e12e2e;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 329px;
+  width: 610px;
+  border-radius: 30px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #dbdbdb;
+  max-width: 100%;
+  margin: 100px auto;
+  border-radius: 30px;
+  background-color: #6fd240;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 329px;
+  width: 610px;
+  border-radius: 30px;
+}
+
+.inner-box {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #feeee2;
+  text-align: center;
+  height: 56px;
+  width: 475px;
+}
+
+.detektif {
+  width: 219px;
+  height: 219px;
+  display: flex;
+  margin-top: -80px;
+}
+
+.Teknisi {
+  width: 219px;
+  height: 219px;
+  display: flex;
+  margin-top: -150px;
+}
+
+.Mahasiswa {
+  width: 219px;
+  height: 219px;
+  display: flex;
+  margin-top: -150px;
+}
+
+.button-container {
+  margin-top: 29px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#iyaButton {
+  background-color: #6fd240;
+  color: black;
+  height: 41px;
+  width: 157px;
+  margin-left: 120px;
+  border-radius: 12px;
+}
+
+#tidakButton {
+  background-color: #e12e2e;
+  color: #fff;
+  height: 41px;
+  width: 157px;
+  margin-right: 120px;
+  border-radius: 12px;
+}
